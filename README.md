@@ -12,11 +12,15 @@ To write a Python program to check whether the given number is **even** or **odd
 4. End the program.
 
 ## 🧾 Program
-
+a=int(input("Enter a number: "))
+if (a%2==0):
+    print(f"{a} is Even")
+else:
+    print(f"{a} is Odd")
 ## Output
-
+![alt text](<Screenshot 2025-12-27 090803.png>)
 ## Result
-
+This program was executed successfully.
 
 # Ex 1:Datatypes-Boolean Expression Evaluation in Python
 
@@ -34,12 +38,20 @@ To write a Python program that evaluates and prints the results of boolean and a
 8. Print the value of `d` with the label "d:".
 
 ## 💻 Program
-Add Code here
+a = (0 == True)
+b = (False == False)
+c = (True + True)
+d = (False + 9)
+
+print("a is", a)
+print("b is", b)
+print("c:", c)
+print("d:", d)
 
 ## Output
-
+![alt text](<Screenshot 2025-12-27 091417.png>)
 ## Result
-
+This program was executed successfully.
 # Datatypes-Character Literal in Python
 
 ## 🎯 Aim
@@ -50,11 +62,12 @@ To write a Python program that prints the characters `'T'` and `'a'` using chara
 2. Print the character `'a'`.
 
 ## 🧾 Program
-
+print('T')
+print('a')
 ## Output
-
+![alt text](<Screenshot 2025-12-27 091807-1.png>)
 ## Result
-
+This program was executed successfully.
 # 🧮 Datatypes-Complex Number Creation in Python
 
 ## 🎯 Aim
@@ -69,12 +82,18 @@ To write a Python program that reads two integers, creates a complex number usin
 6. Print the imaginary part of `x` using `x.imag`.
 
 ## 💻 Program
-Add Code Here
+a=int(input("Enter the real part:"))
+b=int(input("Enter the imaginary part:"))
+
+x=complex(a,b)
+print("The complex number is:",x)
+print("Real part:",x.real)
+print("Imaginary part:",x.imag)
 
 ## Output
-
+![alt text](<Screenshot 2025-12-27 092323.png>)
 ## Result
-
+This program was executed successfully.
 # Datatypes-Read and Print a String in Python
 
 ## 🎯 Aim
@@ -86,7 +105,9 @@ To write a Python program to read a string from the user and then print it.
 3. Print the value stored in the variable.
 
 ## 🧾 Program
-
+men_stepped_on_the_moon=input("Enter a string: ")
+print(men_stepped_on_the_moon)
 ## Output
-
+![alt text](<Screenshot 2025-12-27 092633.png>)
 ## Result
+This program was executed successfully.
